@@ -29,19 +29,23 @@ body{
 }
 
 h1{
-    margin: 3rem 0;
+    margin: 7rem 0;
+    color: white;
+    filter: drop-shadow(0 0 5px rgb(24, 143, 227));
+}
+
+.images{
 }
 
 img{
     width: 100%;
     max-height: 300px;
-    object-fit: cover;
-    border-radius: 25px;
+    object-fit: contain;
 }
 
 .prev, .next{
     border: none;
-    background-color: rgba(181, 170, 170, 0.465);
+    background-color: rgba(232, 182, 182, 0.749);
     width: 30px;
     aspect-ratio: 1/1;
     border-radius: 25px;
