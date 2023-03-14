@@ -34,9 +34,6 @@ h1{
     filter: drop-shadow(0 0 5px rgb(24, 143, 227));
 }
 
-.images{
-}
-
 img{
     width: 100%;
     max-height: 300px;
