@@ -15,7 +15,7 @@ Aggiungere la visualizzazione di tutte le thumbnails sulla destra dell’immagin
 Al click delle frecce, oltre al cambio di immagine attiva, gestire il cambio di miniatura attiva. */
 
 body{
-    background-image: url(/assets/img/bg.jfif);
+    background-image: url(../img/bg.jfif);
     background-repeat: no-repeat;
     background-size: cover;
 }
