@@ -14,7 +14,52 @@ BONUS 2:
 Aggiungere la visualizzazione di tutte le thumbnails sulla destra dell’immagine grande attiva, come nello screenshot proposto. Tutte le miniature avranno un layer di opacità scura, tranne quella corrispondente all’immagine attiva, che invece avrà un bordo colorato.
 Al click delle frecce, oltre al cambio di immagine attiva, gestire il cambio di miniatura attiva. */
 
+body{
+    background-image: url(/assets/img/bg.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .images img:not(.active) {
     display: none;
+}
+
+.col-8{
+    position: relative;
+}
+
+h1{
+    margin: 3rem 0;
+}
+
+img{
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.prev, .next{
+    border: none;
+    background-color: rgba(181, 170, 170, 0.465);
+    width: 30px;
+    aspect-ratio: 1/1;
+    border-radius: 25px;
+    transition: all 0.5s;
+    position: absolute;
+    color: rgba(0, 0, 0, 0.536);
+}
+
+.prev{
+    top: 2%;
+    left: 50%;
+}
+
+.next{
+    bottom: 2%;
+    left: 50%;
+}
+
+button:active{
+    scale: 1.2;
 }
